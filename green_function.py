@@ -180,8 +180,6 @@ class GSigma:
 
         self.Ginit = tmpG / Ncfgs
 
-    # Should I put some comment here, or directly with quotations when defining the function?
-    # Maybe with quotations right...describe what Ginit_approx does...
     def build_Ginit_approx(self,epsJ,overlaps):
         """
         Simple diagonal approximation @ Just call if diag instead of approx?
